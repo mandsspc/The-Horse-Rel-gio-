@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #E3E3E3;
+}
+
+.box-login {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 11rem;
+    padding: 1rem;
+}
+
+.button-input {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #707070;
+    font-size: 14px;
+    margin-right: 2rem;
+}
+
+.button-input:hover {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #ffffff;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: -4rem;
+}
+
+.list-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item-list {
+    font-size: 16px;
+    color: #707070;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+#item-spotlight {
+    font-weight: bold;
+    color: black;
+}
+
+.item-list:hover {
+    font-weight: bold;
+}
+
+.qualquer {
+    display: flex;
+}
+
+.ola {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.watch {
+    width: 28rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.box-title-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 8rem;
+}
+
+.announcement-watch {
+    font-weight: bold;
+    font-size: 22px;
+    color: #707070;
+}
+
+.details-announcement {
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #707070;
+}
+
+.details-announcement-1 {
+    font-size: 16px;
+    color: #707070;
+}
+
+.box-details {
+    margin-top: 20px;
+}
+
+.details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #707070;
+    width: 40%;
+}
+
+.provider-watch {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #707070;
+    margin-top: 14px;
+}
+
+.box-brand {
+    margin-top: 6rem;
+}
+
+.about-the-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    width: 70%;
+}
+
+.description-brand-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    width: 64%;
+    margin-top: 10px;
+}
+
+.box-watch {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+    margin-top: 35px;
+}
+
+.value-watch {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    width: 146px;
+    margin-top: 1rem;
+}
+
+.installments-watch {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 14px;
+    width: 117%;
+}
+
+.view-watch {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 14px
+}
+
+.button-buy {
+    background-color: #ffffff;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    color: #707070;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.paragraph-footer {
+    font-size: 9px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
